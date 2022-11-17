@@ -2,7 +2,7 @@ import "./Table.css"
 import React, { useState } from 'react';
 
 const Table = ({ data }) => {
-    const[search,setSearch] = useState()
+    const[search,setSearch] = useState('')
 
 
   return (
